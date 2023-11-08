@@ -13,5 +13,10 @@ class EmojiCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     
-    
+    // 使用 Emoji 實例 來更新 cell。
+    func update(with emoji: Emoji) {
+        symbolLabel.text = emoji.symbol
+        nameLabel.text = emoji.name
+        descriptionLabel.text = emoji.description
+    }
 }

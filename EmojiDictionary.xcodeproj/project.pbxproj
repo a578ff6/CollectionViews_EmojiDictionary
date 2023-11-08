@@ -47,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		936B8AE52AFB952B00973292 /* 用不到 */ = {
+			isa = PBXGroup;
+			children = (
+				93D9BEE62AD1966000B813CE /* EmojiTableViewController.swift */,
+				93ADE8902AD32F09008BBB2E /* EmojiTableViewCell.swift */,
+			);
+			path = "用不到";
+			sourceTree = "<group>";
+		};
 		93ADE8942AD3EF24008BBB2E /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +67,7 @@
 		93ADE8952AD3EF34008BBB2E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				93ADE8902AD32F09008BBB2E /* EmojiTableViewCell.swift */,
+				936B8AE12AFADBAB00973292 /* EmojiCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -66,8 +75,8 @@
 		93ADE8962AD3EF56008BBB2E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				93D9BEE62AD1966000B813CE /* EmojiTableViewController.swift */,
 				93ADE8922AD342F6008BBB2E /* AddEditEmojiTableViewController.swift */,
+				936B8AE32AFADC3300973292 /* EmojiCollectionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -91,6 +100,7 @@
 		93D9BECF2AD1913F00B813CE /* EmojiDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				936B8AE52AFB952B00973292 /* 用不到 */,
 				93ADE8962AD3EF56008BBB2E /* Controllers */,
 				93ADE8952AD3EF34008BBB2E /* Views */,
 				93ADE8942AD3EF24008BBB2E /* Models */,
@@ -100,8 +110,6 @@
 				93D9BED92AD1914100B813CE /* Assets.xcassets */,
 				93D9BEDB2AD1914100B813CE /* LaunchScreen.storyboard */,
 				93D9BEDE2AD1914100B813CE /* Info.plist */,
-				936B8AE12AFADBAB00973292 /* EmojiCollectionViewCell.swift */,
-				936B8AE32AFADC3300973292 /* EmojiCollectionViewController.swift */,
 			);
 			path = EmojiDictionary;
 			sourceTree = "<group>";
